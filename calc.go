@@ -144,8 +144,28 @@ func main() {
 		if line == "!exit" {
 			fmt.Println("exiting..")
 			return
+		} else if strings.Contains(line, "IIII") == true {
+			fmt.Println("Нет такого числа")
+			return
+		} else if strings.Contains(line, "IIIII") == true {
+			fmt.Println("Нет такого числа")
+			return
+		} else if strings.Contains(line, "IIIIII") == true {
+			fmt.Println("Нет такого числа")
+			return
+		} else if strings.Contains(line, "IIIIIII") == true {
+			fmt.Println("Нет такого числа")
+			return
+		} else if strings.Contains(line, "IIIIIIII") == true {
+			fmt.Println("Нет такого числа")
+			return
+		} else if strings.Contains(line, "IIIIIIIII") == true {
+			fmt.Println("Нет такого числа")
+			return
+		} else if strings.Contains(line, "IIIIIIIIII") == true {
+			fmt.Println("Нет такого числа")
+			return
 		}
-
 		operator, err := findZnak(line)
 		if err != nil {
 			panic(err)
